@@ -4,12 +4,12 @@
 - [ ] Create at least three instance variables (aka attributes aka properties aka fields).
 - [ ] Create at least three methods (messages you send to your pet).
 - [ ] Create a tick() method that represents the passage of time.
+
 ## VirtualPetApp class
 - [ ] Create a main method.
 - [ ] implements a game loop.
 - [ ] asks for user input.
 - [ ] writes output to the console.
-
 
 ## Stretch Tasks
 - [ ] Give the pet the ability to take care of some of its own needs.
