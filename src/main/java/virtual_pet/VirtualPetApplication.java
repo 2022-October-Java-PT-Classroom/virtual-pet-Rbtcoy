@@ -18,8 +18,7 @@ public class VirtualPetApplication {
             if(userSelection == 4){
                 System.out.println("Aw well, thanks for playing! Bye!");
                 game = false;
-            }
-            if(userSelection>3 || userSelection<1){
+            }else if(userSelection>3 || userSelection<1){
                 System.out.println("Im sorry, I do not understand that choice, please try again...");
             }else{max.onTick(userSelection);}
             
