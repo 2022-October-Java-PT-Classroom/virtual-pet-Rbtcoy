@@ -1,15 +1,15 @@
 # Required Tasks
 ## VirtualPet class
-- [ ] You will need to create a VirtualPet class.
-- [ ] Create at least three instance variables (aka attributes aka properties aka fields).
-- [ ] Create at least three methods (messages you send to your pet).
-- [ ] Create a tick() method that represents the passage of time.
+- [ x] You will need to create a VirtualPet class.
+- [ x] Create at least three instance variables (aka attributes aka properties aka fields).
+- [ x] Create at least three methods (messages you send to your pet).
+- [ x] Create a tick() method that represents the passage of time.
 
 ## VirtualPetApp class
-- [ ] Create a main method.
-- [ ] implements a game loop.
-- [ ] asks for user input.
-- [ ] writes output to the console.
+- [ x] Create a main method.
+- [ x] implements a game loop.
+- [ x] asks for user input.
+- [ x] writes output to the console.
 
 ## Stretch Tasks
 - [ ] Give the pet the ability to take care of some of its own needs.
