@@ -22,8 +22,6 @@ public class VirtualPetApplication {
                 System.out.println("Im sorry, I do not understand that choice, please try again...");
             }else{max.onTick(userSelection);}
             
-
-
         }while(game);
         input.close();
     }
