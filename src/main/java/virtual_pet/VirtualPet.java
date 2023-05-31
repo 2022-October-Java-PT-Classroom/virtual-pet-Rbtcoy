@@ -42,7 +42,7 @@ public class VirtualPet {
             case 1: food += 10; water -= 5; play -=5; break;
             case 2: food -= 5; water += 10; play -=5; break;
             case 3: food -= 5; water -= 5; play +=10; break;
-            default: System.out.println("Sorry not understood"); break;
+            default: System.out.println("Sorry not understand"); break;
         }
     }
 }
