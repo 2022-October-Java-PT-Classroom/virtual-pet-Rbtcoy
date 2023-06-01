@@ -15,6 +15,7 @@ public class VirtualPetApplication {
         userNameSelect = input.nextLine();
         VirtualPet max = new VirtualPet(50, 50, 50, userNameSelect);
         do {
+            dayNight.cycleCheck(dayNight.getTimeTracker());
             max.getStatus();
             System.out.println();
             sus.promptUser();
@@ -28,7 +29,7 @@ public class VirtualPetApplication {
                 max.onTick(userSelection);
                 dayNight.userSelectionMatcher(userSelection);
             }
-            dayNight.onTick();
+
         } while (game);
         input.close();
     }

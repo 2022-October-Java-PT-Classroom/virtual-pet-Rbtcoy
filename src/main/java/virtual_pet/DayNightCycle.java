@@ -15,6 +15,10 @@ public class DayNightCycle {
     private String dayPlay = "\"You enter a long corridor with 2 rooms on the right...\" You begin to narrate a Dungeons and Dragons™ scene for your corgi";
     private String nightPlay = "You both dance crazily to a random song on your playlist";
 
+    public int getTimeTracker() {
+        return timeTracker;
+    }
+
     public void foodTimeCheck(int timeCheck) {
         switch (timeCheck) {
             case 1:
@@ -84,6 +88,23 @@ public class DayNightCycle {
         timeTracker++;
         if (timeTracker > 3) {
             timeTracker = 1;
+        }
+        cycleCheck(timeTracker);
+    }
+
+    public void cycleCheck(int cycleCheck) {
+        switch (cycleCheck) {
+            case 1:
+                System.out.println("Good Morning");
+                break;
+            case 2:
+                System.out.println("Good Day");
+                break;
+            case 3:
+                System.out.println("Good Evening");
+                break;
+            default:
+                System.out.println("An error am I");
         }
     }
 }
