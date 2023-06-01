@@ -6,6 +6,6 @@ public class SystemLogic {
         System.out.println("1. Feed them.");
         System.out.println("2. Give them water.");
         System.out.println("3. Play with them");
-        System.out.println("Or press 4 to quit T~T");
+        System.out.println("4. Quit T~T");
     }
 }
