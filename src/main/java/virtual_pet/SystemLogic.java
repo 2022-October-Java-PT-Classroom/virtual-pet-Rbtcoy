@@ -1,6 +1,7 @@
 package virtual_pet;
 
 public class SystemLogic {
+
     public void promptUser() {
         System.out.println("What would you like to do now? ");
         System.out.println("1. Feed them.");
@@ -8,4 +9,5 @@ public class SystemLogic {
         System.out.println("3. Play with them");
         System.out.println("4. Quit T~T");
     }
+    
 }
