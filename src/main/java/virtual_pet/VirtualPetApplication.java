@@ -15,6 +15,7 @@ public class VirtualPetApplication {
         SystemLogic sus = new SystemLogic();
         DayNightCycle dayNight = new DayNightCycle();
         CorgiBehave goodBoy = new CorgiBehave();
+        Exploration explore = new Exploration();
         System.out.println(userGreeting);
         userNameSelect = input.nextLine();
         VirtualPet max = new VirtualPet(50, 50, 50, userNameSelect);
