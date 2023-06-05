@@ -12,7 +12,8 @@
 - [ x] writes output to the console.
 
 ## Stretch Tasks
-- [ ] Give the pet the ability to take care of some of its own needs.
+- [ x] Give the pet the ability to take care of some of its own needs.
+- [ ] Create an "Explore" option to spend stats to get cool thing/moments.
 
 Pets are not robots - they usually have some sort of self-determination! When tick() is called, you might want to have your pet take a look at its needs and address one, prioritizing whichever need is highest. You could also make your pet uncooperative - when the user tries to feed the pet, for example, you might make the pet refuse to eat if it is bored. Remember how we created an instance of the Random class to create a random number generator? You might want to incorporate that.
 
