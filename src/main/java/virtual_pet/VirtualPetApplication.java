@@ -13,15 +13,15 @@ public class VirtualPetApplication {
         String userErrorText = "Im sorry, I do not understand that choice, please try again...";
         Scanner input = new Scanner(System.in);
         SystemLogic sus = new SystemLogic();
-        DayNightCycle dayNight = new DayNightCycle();
-        CorgiBehave goodBoy = new CorgiBehave();
-        Exploration explore = new Exploration();
+        // DayNightCycle dayNight = new DayNightCycle();
+        // CorgiBehave goodBoy = new CorgiBehave();
+        // Exploration explore = new Exploration();
         System.out.println(userGreeting);
         userNameSelect = input.nextLine();
         VirtualPet max = new VirtualPet(50, 50, 50, userNameSelect);
         do {
             System.out.println();
-            dayNight.cycleCheck(dayNight.getTimeTracker());
+            // dayNight.cycleCheck(dayNight.getTimeTracker());
             max.getStatus();
             System.out.println();
             sus.promptUser();
@@ -33,9 +33,9 @@ public class VirtualPetApplication {
                 System.out.println(userErrorText);
             } else {
                 max.onTick(userSelection);
-                dayNight.userSelectionMatcher(userSelection);
+                // dayNight.userSelectionMatcher(userSelection);
                 System.out.println();
-                max.goodDog(goodBoy.randoBehave(max.getName()));
+                // max.goodDog(goodBoy.randoBehave(max.getName()));
             }
 
         } while (game);
